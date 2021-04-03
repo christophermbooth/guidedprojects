@@ -10,6 +10,7 @@ import {
 import Home from './components/Home';
 import Cart from './components/Cart';
 import Deals from './components/Deals';
+import Nav from './components/Nav.js';
 
 //Styles
 import './app.scss';
@@ -18,6 +19,7 @@ import './app.scss';
 const App = () => {
   return (
    <Router>
+     <Nav />
      <Switch>
        <Route exact path="/" component={Home} />
        <Route path="/deals" component={Deals} />
