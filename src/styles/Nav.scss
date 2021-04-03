@@ -1,0 +1,33 @@
+nav {
+  background-color: #003C55;
+  color: white;
+  display: inline-block;
+  width: 100%;
+  font-weight: 600;
+  align-items: center;
+  a {
+    text-decoration: none;
+    padding: 16px;
+    &:visited {
+      color: white;
+    }
+  }
+  ul {
+    list-style: none;
+    float: right;
+    li {
+      display: inline;
+    }
+  }
+  .active {
+    text-decoration: underline;
+  }
+  .logo {
+    // padding-top: 16px;
+    float: left;
+    font-size: 38px;
+    .logo-link {
+      text-decoration: none!important;
+    }
+  }
+}
