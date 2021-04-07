@@ -6,11 +6,13 @@ import {
   Switch
 } from 'react-router-dom';
 
-//Components
-import Home from './components/Home';
-import Cart from './components/Cart';
-import Deals from './components/Deals';
+//Components & Pages
 import Nav from './components/Nav.js';
+import {
+  Cart,
+  Deals,
+  Home
+} from './pages';
 
 //Styles
 import './app.scss';
