@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom';
 
 //Components & Pages
-import Nav from './components/Nav.js';
+import Nav from './components/Nav';
 import {
   Cart,
   Deals,
@@ -18,7 +18,7 @@ import {
 import './app.scss';
 
 
-const App = () => {
+const App: React.FC = () => {
   return (
    <Router>
      <Nav />
